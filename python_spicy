@@ -1,0 +1,11 @@
+1. scipy.io.arff.loadarff
+   #read arff file
+   Returns:
+  1)data-- record array
+  The data of the arff file, 
+  accessible by attribute names.
+
+  2)meta-- MetaData
+  Contains information about the arff 
+  file such as name and type of attributes, 
+  the relation (name of the dataset), etc…
